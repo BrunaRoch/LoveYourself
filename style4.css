@@ -1,0 +1,242 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    height: 4100px;
+}
+.navbar {
+    background-color: #FFFFFF;
+    height: 100px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+.logo {
+    padding-top: 10px;
+    padding-left: 43%;
+}
+.form {
+    font-size: 15px;
+    font-weight: 500;
+    float: right;
+    padding-right: 170px;
+    padding-top: 32px;
+}
+a {
+    text-decoration: none;
+    color: #808080;
+    padding-right: 20px;
+    font-weight: 500;
+}
+a:link a:visited {
+    color: #f2f2f2;
+}
+a:hover {
+   color: #b2c9e9;
+}
+.blog {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: -350px;
+    margin-top: -38px;
+}
+.blog a:hover {
+    color: #E7ACC2;
+}
+
+/*Produtos*/
+.perfum {
+    padding-bottom: 150px;
+    margin-bottom: 500px;
+}
+.perfumestitulo {
+    font-weight: 500;
+    font-style: normal;
+    color: #808080;
+    margin-left: 132px;
+    margin-bottom: -30px;
+    margin-top: 90px;
+    color: #f3ccbd;
+}
+.imageproduct {
+    width: 200px;
+    height: 190px;
+}
+.thumbnail1 {
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+    padding-right: 3px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.thumbnail1 h4 {
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: 	#808080;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+}
+ .thumbnail1 p {
+    margin-top: 5px;
+    color: #A9A9A9;
+    font-size: 18px; 
+    text-align: center;   
+    font-style: normal;
+    font-weight: 500;
+}
+.thumbnail1 h6 { 
+    color: #A9A9A9;
+    text-align: center;
+    font-size:15px;
+    margin-top: -22px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: -10px;
+}
+.thumbnail {
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+    padding-right: 3px;
+    margin-top: 50px;
+    position:sticky;
+}
+.thumbnail h4 {
+    margin-top: 3px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    color: 	#808080;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+  }
+ .thumbnail p {
+    margin-top: 5px;
+    color: #A9A9A9;
+    font-size: 18px; 
+    text-align: center;   
+    font-style: normal;
+    font-weight: 500;
+  }
+  .thumbnail h6 { 
+    color: #A9A9A9;
+    text-align: center;
+    font-size:15px;
+    margin-top: -22px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: -10px;
+}
+.btn {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-bottom: 150px;
+    background-color: #eebcbb;
+    padding-bottom: 15px;
+}
+.btn:hover {
+    color:white;
+}
+.btn-2 {
+    background-image: linear-gradient(to left, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+}
+.hr1 { 
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #f3ccbd, transparent);  
+}
+.skincare {
+    font-weight: 500;
+    font-style: normal;
+    color: #808080;
+    margin-left: 132px;
+    color: #eebcbb;
+    margin-top: 900px;
+}
+.hr2 {  
+    width: 550px;
+    margin-top: -10px;
+    margin-left: 40px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #eebcbb, transparent);  
+}
+.skincaretitulo {
+    color: #eebcbb;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 132px;
+    margin-top: 650px;
+}
+.titulo {
+    margin-top: 150px;
+    padding-top: 200px;
+}
+.maquiagemtitulo {
+    color: #e7acc2;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 132px;
+    margin-top: 575px;
+}
+.hr3 {
+    width: 550px;
+    margin-top: -10px;
+    margin-left: 40px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #e7acc2, transparent);  
+
+}
+.cabelotitulo {
+    color: #c9bcda;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 132px;
+    margin-top: 575px;
+}
+.hr4 {
+    width: 550px;
+    margin-top: -10px;
+    margin-left: 40px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #c9bcda, transparent);  
+} 
+
+/*Footer*/
+.footer {
+    background-image: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+    margin-top: 80%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    margin-right: -8px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+    color: #FFF;
+    font-style: normal;
+  }

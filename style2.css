@@ -1,0 +1,183 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+}
+
+/*Navbar*/
+.navbar {
+  background-color: #FFFFFF;
+  height: 100px;
+  margin-top: 0px;
+  letter-spacing: 1px;
+  box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+.logo {
+  padding-top: 10px;
+  padding-left: 43%;
+}
+.form {
+  font-size: 15px;  
+  font-weight: 500;
+  float: right;
+  padding-right: 170px;
+  padding-top: 32px;
+}
+a {
+  text-decoration: none;
+  color: #808080;
+  padding-right: 20px;
+  font-weight: 500;
+}
+a:link a:visited {
+  color: #f2f2f2;
+}
+a:hover {
+  color: #b2c9e9;
+}
+.blog {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: -350px;
+  margin-top: -38px;
+
+}
+.blog a:hover {
+  color: #E7ACC2;
+}
+
+/*Formulário Cadastro*/
+.titulocadastro {
+  color: #808080;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0px;
+  margin-top: 75px;
+  font-size: 30px;
+  padding-left: 16%;
+  margin-bottom: -8px;
+}
+
+.formulariocadastro {
+  color: #808080;
+  text-align: left;
+  padding-left: 12%;
+
+}
+.formtitulo { 
+  margin-bottom:45px; 
+  position: relative;
+}
+.input {
+  font-size: 15px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #808080;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+input:focus { 
+  outline:none; 
+}
+.label {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+input:focus ~ label, input:valid ~ label {
+  top:-20px;
+  font-size:14px;
+  color: #808080;
+}
+.bar 	{
+  position:relative; 
+  display:block; 
+  width:300px; 
+}
+/*Minicheckbox*/
+.minicheckbox {
+  padding-left: 145px;
+  margin-bottom: 35px;
+  margin-top: -25px;
+}
+/*Botão Cadastro/Login*/
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 8px;
+  margin-left: 155px;
+  margin-top: 5px;
+ }
+.btn:hover {
+  background-position: right center;
+  color:white;
+}
+.btn-2 {
+  background-image: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+}
+
+/*Formulário Login*/
+.titulologin {
+  color: #808080;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 15px;
+  margin-top: -475px;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 23%;
+  margin-bottom: -7px;
+}
+.formulariologin {
+  margin-left: 63%;
+  margin-top: 0px;
+}
+.botaologin {
+  margin-left: -120px;
+  margin-top: 35px;
+  margin-right: 35%;
+}
+.linha-vertical {
+  height: 575px;
+  border-left: 2px solid;
+  color:rgba(36, 36, 36, 0.1);
+  margin-left: 50%;
+  margin-top: -40%;
+}
+ 
+.minicheckbox2 {
+  margin-left: 61%;
+  margin-top: -29px;
+  margin-bottom: 15px;
+}
+.footer {
+  background-image: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+  margin-top: 20%;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  margin-right: -8px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+  color: #FFF;
+  font-style: normal;
+}
