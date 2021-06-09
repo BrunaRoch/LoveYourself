@@ -1,0 +1,114 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+}
+.navbar {
+    background-color: #FFFFFF;
+    height: 100px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+}
+.logo {
+    padding-top: 10px;
+    padding-left: 43%;
+}
+.form {
+    font-size: 15px;
+    font-weight: 500;
+    float: right;
+    padding-right: 170px;
+    padding-top: 32px;
+}
+a {
+    text-decoration: none;
+    color: #808080;
+    padding-right: 20px;
+    font-weight: 500;
+}
+a:link a:visited {
+    color: #f2f2f2;
+}
+a:hover {
+   color: #b2c9e9;
+}
+.blog {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -350px;
+    margin-top: -38px;
+}
+.blog a:hover {
+    color: #E7ACC2;
+
+}
+
+/*Posts*/
+h2 {
+    color:#808080;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 140px;
+    margin-top: 85px;
+}
+
+.hr2 {
+    margin-top: 2%;
+    margin-left: 90px;
+    width: 800px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #f3ccbd, #eebcbb, #e7acc2, #d6b5d4, #c9bcda, #b2c9e9, transparent);  
+}
+.imagempost {
+    width: 682px;
+    height: 680px;
+    margin-top: 10px;
+    margin-left: 142px;
+    image-resolution: 100%;
+}
+.titulopost {
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 142px;
+    color: #808080;
+}
+.textopost {
+    width: 60%;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 142px;
+    margin-top: -2px;
+    color: #808080;
+}
+
+/*Botão Ver Mais*/
+a.btnmore {
+    border: 3px solid #E7ACC2;
+    color: #E7ACC2;
+    margin-left: 50%;
+    height: 250px;
+    border: (to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+}
+a.btnmore:after {
+    border: 3px solid #E7ACC2;
+    border: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+    opacity: 0;
+}
+a.btnmore:hover:after {
+    background-image: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+}
+.footer {
+    background-image: linear-gradient(to right, #f3ccbd 1%, #eebcbb 10%, #c9bcda 51%, #b2c9e9 100%);
+    margin-top: 20%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    margin-right: -8px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+    color: #FFF;
+    font-style: normal;
+  }
